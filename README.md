@@ -28,7 +28,7 @@
     <H3>Como iniciar com o BaseHorseApi ?</H3>
     <p>Quando você roda o .exe pela primeira vez, o BaseHorseApi cria um arquivo .ini no mesmo diretório onde o .exe está, neste arquivo vão estar suas configurações do MySQL e do Serviço, altere este arquivo conforme suas necessidades</p>
     <img src="https://iili.io/17Ny3Q.png" alt="Mostando arquivo .ini">
-    <p>Depois de alterar, salve este arquivo e iniciei seu servidor novamente. Pronto sua Api com Horse está Online !</p>
+    <p>Depois de alterar, salve este arquivo e inicie seu servidor novamente. Pronto sua Api com Horse está Online !</p>
     <p>Para testar você pode acessar a seguinte rota: <a href="http://localhost{SUA_PORTA}/server-info">http://localhost{SUA_PORTA}/server-info</a></p> 
     <p>Este é o retorno que você deverá receber</p>
     <img src="https://iili.io/17Olcl.png" alt="Aplicação rodando">
