@@ -13,7 +13,7 @@
         <li>Basic-Authentication</li>
         <li>Rota de teste para verificar se o servidor está online</li>
         <li>A classe TConnection te entrega uma TFDQuery já instanciada e com uma conexão setada, tudo pronto para rodar seu SQL</li>
-        <li>Configuração da conexção com MySQL</li>
+        <li>Configuração da conexão com MySQL</li>
         <li>Configuração da porta de serviço que sua API irá usar</li> 
     </ul>
     <p>Para poder te entregar este conteudo, o BaseHorseApi tem algumas dependencias que você precisa ter instalado no seu RAD para poder rodar o projeto sem erros, elas são:</p>
