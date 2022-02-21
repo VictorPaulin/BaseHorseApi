@@ -30,9 +30,7 @@
     <img src="https://iili.io/17Ny3Q.png" alt="Mostando arquivo .ini">
     <p>Depois de alterar, salve este arquivo e iniciei seu servidor novamente. Pronto sua Api com Horse está Online !</p>
     <p>Para testar você pode acessar a seguinte rota:</p> 
-    
     <a href="http://localhost{SUA_PORTA}/server-info">http://localhost{SUA_PORTA}/server-info</a>
-    
     <p>Este é o retorno que você deverá receber</p>
     <img src="https://iili.io/17Olcl.png" alt="Aplicação rodando">
 </body>
