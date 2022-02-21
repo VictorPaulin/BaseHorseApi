@@ -23,7 +23,7 @@
     </ul>
     <p>Este próximo item não é necessário para dar o start com o BaseHorseApi, mas facilita muito o seu dia-a-dia, esta biblioteca converte um DataSet em JSON ou JSON em DataSet</p>
     <ul>
-        <li><a href="https://github.com/ezequieljuliano/DataSetConverter4Delphi"> Converter4Delphi</a></li>
+        <li><a href="https://github.com/ezequieljuliano/DataSetConverter4Delphi" target="_blank"> Converter4Delphi</a></li>
     </ul>
     <H3>Como iniciar com o BaseHorseApi ?</H3>
     <p>Quando você roda o .exe pela primeira vez, o BaseHorseApi cria um arquivo .ini no mesmo diretório onde o .exe está, neste arquivo vão estar suas configurações do MySQL e do Serviço, altere este arquivo conforme suas necessidades</p>
