@@ -27,7 +27,7 @@
     </ul>
     <H3>Como iniciar com o BaseHorseApi ?</H3>
     <p>Quando você roda o .exe pela primeira vez, o BaseHorseApi cria um arquivo .ini onde vão estar suas configurações do MySQL e do Serviço, altere este arquivo conforme suas necessidades</p>
-    (https://freeimage.host/i/17Ny3Q)
+    (https://iili.io/17Ny3Q.png)
     <p>Para testar, você pode acessar a rota http://locahosta:PORTA_INI/server-info</p>
 </body>
 </html>
