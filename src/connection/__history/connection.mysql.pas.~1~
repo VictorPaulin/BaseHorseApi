@@ -1,0 +1,7 @@
+unit connection.mysql;
+
+interface
+
+implementation
+
+end.

@@ -1,0 +1,13 @@
+unit endpoints.serverinfo;
+
+interface
+
+procedure Registry;
+
+implementation
+
+procedure Registry;
+begin
+
+end;
+end.

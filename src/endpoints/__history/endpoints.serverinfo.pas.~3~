@@ -1,0 +1,19 @@
+unit endpoints.serverinfo;
+
+interface
+
+uses
+{$REGION 'Horse'}
+  Horse, Horse.BasicAuthentication,
+{$ENDREGION}
+system.SysUtils,vcl.Dialogs;
+
+procedure Registry;
+
+implementation
+
+procedure Registry;
+begin
+
+end;
+end.

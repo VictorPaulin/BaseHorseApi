@@ -1,0 +1,18 @@
+unit endpoints.produto;
+
+interface
+
+uses
+  utils.log;
+
+const EndPointName = '/produto';
+procedure Registry;
+
+implementation
+
+procedure Registry;
+begin
+  AddLog('Registrando rota ' + EndPointName);
+end;
+
+end.
