@@ -8,7 +8,7 @@
 <body>
     <H3 style="color: green;">BaseHorseApi</H3>
     <p style="font-weight: bold;">Este projeto é um acelerador para você que deseja construir sua API utilizando o Horse Framework</p>
-    <p>O BasiHorseApi te entrega uma API já funcionando com o framework Horse, além disso você já tem a sua disposição:</p>
+    <p>O BaseHorseApi te entrega uma API já funcionando com o framework Horse, além disso você já tem a sua disposição:</p>
     <ul>
         <li>Basic-Authentication</li>
         <li>Rota de teste para verificar se o servidor está online</li>
@@ -26,6 +26,9 @@
         <li><a href="https://github.com/ezequieljuliano/DataSetConverter4Delphi"> Converter4Delphi</a></li>
     </ul>
     <H3>Como iniciar com o BaseHorseApi ?</H3>
+    <p>Quando você roda o .exe pela primeira vez, o BaseHorseApi cria um arquivo .ini onde vão estar suas configurações do MySQL e do Serviço, altere este arquivo conforme suas necessidades</p>
+    (https://freeimage.host/i/17Ny3Q)
+    <p>Para testar, você pode acessar a rota http://locahosta:PORTA_INI/server-info</p>
 </body>
 </html>
 
