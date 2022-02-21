@@ -29,7 +29,7 @@
     <p>Quando você roda o .exe pela primeira vez, o BaseHorseApi cria um arquivo .ini onde vão estar suas configurações do MySQL e do Serviço, altere este arquivo conforme suas necessidades</p>
     <img src="https://iili.io/17Ny3Q.png" alt="Minha Figura">
     <p>Depois de alterar, salve este arquivo e iniciei seu servidor novamente. Pronto sua Api com Horse está Online !</p>
-    <p>Para testar você pode acessar a rota http:localhost{SUA_PORTA}/server-info</p>
+    <p>Para testar você pode acessar a rota <a href=" http:localhost{SUA_PORTA}/server-info"> http:localhost{SUA_PORTA}/server-info text</a></p>
 </body>
 </html>
 
