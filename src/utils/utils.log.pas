@@ -7,7 +7,6 @@ uses
 
   procedure AddLog(Log : String);
   procedure AddLogResponse(Verbo, EndPoint, Log : String);
-  procedure BoasVindas;
 
 implementation
 
@@ -22,18 +21,6 @@ begin
   Writeln('LOG ' + DateTimeToStr(now));
   Writeln('  ' + VERBO + EndPoint);
   Writeln('  ' + Log);
-end;
-
-procedure BoasVindas;
-var txt : string;
-begin
-  txt :=  '********************************************************************' + sLineBreak +
-          '*                           Bem-Vindo ao                           *' + sLineBreak +
-          '*                             Alma-API                             *' + sLineBreak +
-          '*                         Fatec Ourinhos - SP                      *' + sLineBreak +
-          '********************************************************************';
-
-  Writeln(txt);
 end;
 
 end.
