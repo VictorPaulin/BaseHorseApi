@@ -21,13 +21,11 @@
         <li><a href="https://github.com/HashLoad/horse" target="_blank"> Horse</a></li>
         <li><a href="https://github.com/HashLoad/horse-basic-auth" target="_blank"> Horse Basic Auth</a></li>
     </ul>
-    
     <p>Este próximo item não é necessário para dar o start com o BaseHorseApi, mas facilita muito o seu dia-a-dia, esta biblioteca converte um DataSet em JSON ou JSON em DataSet</p>
     
     <ul>
         <li><a href="https://github.com/ezequieljuliano/DataSetConverter4Delphi"> Converter4Delphi</a></li>
-    </ul>
-       
+    </ul>      
 </body>
 </html>
 
