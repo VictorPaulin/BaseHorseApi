@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    # BaseHorseApi
+    <H3># BaseHorseApi</H3>
     <p style="font-weight: bold;">Este projeto é um acelerador para você que deseja construir sua API utilizando o Horse Framework</p>
     <p>O BasiHorseApi te entrega uma API já funcionando com o framework Horse, além disso você já tem a sua disposição:</p>
     <ul>
@@ -24,7 +24,9 @@
     <p>Este próximo item não é necessário para dar o start com o BaseHorseApi, mas facilita muito o seu dia-a-dia, esta biblioteca converte um DataSet em JSON ou JSON em DataSet</p>
     <ul>
         <li><a href="https://github.com/ezequieljuliano/DataSetConverter4Delphi"> Converter4Delphi</a></li>
-    </ul>      
+    </ul>
+    
+    <H3>Como iniciar com o BaseHorseApi ?</H3>
 </body>
 </html>
 
