@@ -8,10 +8,11 @@ uses
 {$ENDREGION}
 system.SysUtils,vcl.Dialogs, utils.log;
 
-const EndPointName = '/server-info';
+
 procedure Registry;
 
 implementation
+const EndPointName = '/server-info';
 
 procedure Registry;
 var date : String;
