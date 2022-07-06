@@ -13,11 +13,13 @@ uses
   utils.log in 'src\utils\utils.log.pas',
   utils.startserver in 'src\utils\utils.startserver.pas',
   utils.ini in 'src\utils\utils.ini.pas',
-  endpoints.serverinfo in 'src\endpoints\endpoints.serverinfo.pas';
+  endpoints.serverinfo in 'src\endpoints\endpoints.serverinfo.pas',
+  connection.firebird in 'src\connection\connection.firebird.pas',
+  model.dao.generic in 'src\model\dao\model.dao.generic.pas';
 
 begin
   try
-    //Autenticação
+    //AutenticaÃ§Ã£o
     //utils.basicauth.Registry; //DESCOMENTE ESTA LINHA PARA USAR
 
     //Rotas registradas
