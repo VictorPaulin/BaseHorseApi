@@ -13,7 +13,7 @@ uses
   FireDAC.Phys.MySQL, utils.ini;
 
 type
-  TConnection = class
+  TConnectionMySQL = class
   private
     { Private declarations }
     FDriverLink: TFDPhysMySQLDriverLink;
@@ -31,19 +31,19 @@ implementation
 
 { TdmConnection }
 
-procedure TConnection.closeQuery(query: TFDQuery);
+procedure TConnectionMySQL.closeQuery(query: TFDQuery);
 begin
   query.Connection.Close;
   query.Connection.Free;
   query.Free;
 end;
 
-procedure TConnection.connect(database: TFDConnection);
+procedure TConnectionMySQL.connect(database: TFDConnection);
 begin
   database.Connected := True;
 end;
 
-function TConnection.getConnection: TFDConnection;
+function TConnectionMySQL.getConnection: TFDConnection;
 var
   NewDatabase: TFDConnection;
 begin
@@ -56,7 +56,7 @@ begin
     except
       on E: Exception do
       begin
-        raise Exception.Create('Não foi possivel conectar ao banco de dados ' + e.Message);
+        raise Exception.Create('NÃ£o foi possivel conectar ao banco de dados ' + e.Message);
         Exit;
       end;
     end;
@@ -66,7 +66,7 @@ begin
   end;
 end;
 
-function TConnection.getQuery: TFDQuery;
+function TConnectionMySQL.getQuery: TFDQuery;
 var
   newDb: TFDConnection;
   newQuery: TFDQuery;
@@ -81,7 +81,7 @@ begin
 
 end;
 
-procedure TConnection.setParams(database: TFDConnection);
+procedure TConnectionMySQL.setParams(database: TFDConnection);
 begin
   database.Params.Values['Server']   := IpServidor;
   database.Params.Values['Database'] := DatabaseName;
@@ -98,4 +98,3 @@ begin
 end;
 
 end.
-
