@@ -8,24 +8,24 @@
 <body>
     <H3 style="color: green;">BaseHorseApi</H3>
     <p style="font-weight: bold;">Este projeto é um acelerador para você que deseja construir sua API utilizando o Horse Framework</p>
-    <p>O BaseHorseApi te entrega uma API já funcionando com o framework Horse, além disso você já tem a sua disposição:</p>
+    <p>O BaseHorseApi te entregará uma API utilizando o framework Horse, você terá os seguintes recursos a sua disposição:</p>
     <ul>
         <li>Basic-Authentication;</li>
-        <li>Rota de teste para verificar se o servidor está online;</li>
-        <li>A classe TConnection te entrega uma TFDQuery já instanciada e com uma conexão setada, tudo pronto para rodar seu SQL;</li>
-        <li>Configuração da conexão com MySQL;</li>
-        <li>Configuração da conexão com FireBird;</li>
-        <li>Classe genérica com facilidades relacionadas a banco de dados pronta para uso (TGenericDAO);</li>
-        <li>Configuração da porta de serviço que sua API irá usar.</li> 
+        <li>Rota para verificação de disponibilidade do servidor;</li>
+        <li>A classe TConnection para configuração de componentes de acesso a bancos de dados;</li>
+        <li>Configuração com MySQL;</li>
+        <li>Configuração com FireBird;</li>
+        <li>Classe genérica com utilitários para bancos de dados (TGenericDAO);</li>
+        <li>Configuração da porta de serviço da API.</li> 
     </ul>
-    <p>Para poder te entregar este conteudo, o BaseHorseApi tem algumas dependencias que você precisa ter instalado no seu RAD para poder rodar o projeto sem erros, elas são:</p>
+    <p>Para este projeto, as seguintes de pendências são necessárias no seu RAD:</p>
     <ul>
         <li><a href="https://github.com/HashLoad/horse" target="_blank"> Horse</a></li>
         <li><a href="https://github.com/HashLoad/horse-basic-auth" target="_blank"> Horse Basic Auth</a></li>
         <li><a href="https://github.com/viniciussanchez/dataset-serialize" target="_blank"> Dataset-Serialize</a></li>
     </ul>
     <H3>Como iniciar com o BaseHorseApi ?</H3>
-    <p>Quando você roda o .exe pela primeira vez, o BaseHorseApi cria um arquivo .ini no mesmo diretório onde o .exe está, neste arquivo vão estar suas configurações do banco de dados e do Serviço, altere este arquivo conforme suas necessidades</p>
+    <p>Ao executar o .exe pela primeira vez, o BaseHorseApi criará um arquivo .ini no mesmo diretório onde o .exe estará, neste arquivo estarão suas configurações do banco de dados e serviço, altere este arquivo conforme suas necessidades</p>
     <img src="https://iili.io/17Ny3Q.png" alt="Mostando arquivo .ini">
     <p>Depois de alterar, salve este arquivo e inicie seu servidor novamente. Pronto sua Api com Horse está Online !</p>
     <p>Para testar você pode acessar a seguinte rota: <a href="http://localhost{SUA_PORTA}/server-info">http://localhost{SUA_PORTA}/server-info</a></p> 
